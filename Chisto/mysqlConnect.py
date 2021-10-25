@@ -15,9 +15,7 @@ class Host:
 
 ats = []
 efw = []
-connection = pymysql.connect(user='root', password='uxmwnhbm',
-                             host='192.168.133.109', db='office',
-                             charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+
 try:
     con = pymysql.connect(user='root', password='uxmwnhbm',
                              host='192.168.133.109', db='office',

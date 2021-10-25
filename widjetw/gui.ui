@@ -262,6 +262,68 @@ color: rgb(43, 255, 43);</string>
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
+  <widget class="QLabel" name="label_lat">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>40</y>
+     <width>40</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>40</width>
+     <height>15</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>40</width>
+     <height>15</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>lat</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_lng">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>60</y>
+     <width>40</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>40</width>
+     <height>15</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>40</width>
+     <height>15</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>lng</string>
+   </property>
+  </widget>
   <zorder>frame_worm</zorder>
   <zorder>frame_cold</zorder>
   <zorder>label_temp</zorder>
@@ -269,6 +331,8 @@ color: rgb(43, 255, 43);</string>
   <zorder>btn_slice</zorder>
   <zorder>label_day</zorder>
   <zorder>label_time</zorder>
+  <zorder>label_lng</zorder>
+  <zorder>label_lat</zorder>
  </widget>
  <resources/>
  <connections/>

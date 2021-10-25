@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+#-*- coding: utf-8 -*-
+
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 import gui
@@ -21,8 +24,8 @@ class Prog(QMainWindow, gui.Ui_MainWindow):
     def efwView(self):
         self.currentList = efw
         self.listWidget.clear()
-        for gate in self.currentList:
-            self.listWidget.addItem(gate.getName())
+        for item in self.currentList:
+            self.listWidget.addItem(item.getName())
 
     def listSelectItem(self):
         self.label_view.setText(self.currentList[self.listWidget.currentRow()].getAddress())

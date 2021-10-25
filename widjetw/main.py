@@ -15,6 +15,8 @@ class WeatherData(QThread):
     req = weather.today()
     city = req['city']
     temp = req['temp']
+    lat = req['lat']
+    lng = req['lng']
 
     def __init__(self):
         QThread.__init__(self)
@@ -26,12 +28,15 @@ class WeatherData(QThread):
             except:
                 req['city'] = self.city
                 req['temp'] = self.temp
+                req['lat'] = self.lat
+                req['lng'] = self.lng
             print('thread')
             time.sleep(3)
 
 
 class App(QWidget):
     tic = False
+
     def __init__(self):
         QWidget.__init__(self)
         self.weather = WeatherData()
@@ -51,6 +56,7 @@ class App(QWidget):
     def setData(self):
         self.w_root.label_temp.setText(str(self.weather.temp) + " °C")
         self.w_root.label_city.setText(self.weather.city)
+        self.w_root.label_lat.setText(self.weather.lat)
         # Time
         if self.tic:
             now = datetime.datetime.today().strftime("%H:%M:%S")
@@ -61,7 +67,10 @@ class App(QWidget):
         self.w_root.label_time.setText(now)
 
     def setHeight(self):
-        print("dsadada")
+        try:
+            weather.parse()
+        except:
+            print("error")
 
 
 if __name__ == '__main__':
