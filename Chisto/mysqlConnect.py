@@ -15,6 +15,7 @@ class Host:
 
 ats = []
 efw = []
+hosts = []
 
 try:
     con = pymysql.connect(user='root', password='uxmwnhbm',

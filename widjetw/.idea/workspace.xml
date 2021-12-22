@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82108445-6156-42ed-856c-264374529ae3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Chisto/gui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../Chisto/gui.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chisto/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Chisto/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
