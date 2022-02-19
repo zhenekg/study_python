@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ruriko</class>
+ <widget class="QWidget" name="Ruriko">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>1210</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>900</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>1200</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelHair">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>900</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>1200</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Hair</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelFace">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>900</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>1200</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPiersing">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>900</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>1200</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Hair</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMask">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>900</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>1200</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Hair</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelUnderwearBottom">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>900</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>1200</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Hair</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelUnderwearUpper">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>900</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>1200</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Hair</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelLegs">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>900</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>1200</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Hair</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelShoes">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>900</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>1200</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Hair</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelUpper">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>900</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>1200</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Hair</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBottom">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>900</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>1200</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Hair</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>labelFace</zorder>
+  <zorder>labelHair</zorder>
+  <zorder>labelPiersing</zorder>
+  <zorder>labelMask</zorder>
+  <zorder>labelUnderwearBottom</zorder>
+  <zorder>labelUnderwearUpper</zorder>
+  <zorder>labelLegs</zorder>
+  <zorder>labelShoes</zorder>
+  <zorder>labelUpper</zorder>
+  <zorder>labelBottom</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
