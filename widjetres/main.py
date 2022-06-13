@@ -22,8 +22,8 @@ class Resinfo(QThread):
     def run(self):
         while True:
 
-            print(self.res_cpu)
-            print(self.res_memmory)
+           # print(self.res_cpu)
+           # print(self.res_memmory)
             time.sleep(3)
 
 

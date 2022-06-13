@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>781</width>
+      <height>451</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_refresh">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>10</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>150</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Обновить</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_data">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>80</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Дата</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_new">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>10</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>150</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Создать</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_user">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>150</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>150</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Пользователь</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
