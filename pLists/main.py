@@ -1,15 +1,20 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+import sys
+import os
+from PyQt5 import QtCore
+from PyQt5.QtWidgets import QApplication, QMainWindow
+import gui
 
 
+class App(QMainWindow, gui.Ui_pLists):
+    def __init__(self):
+        QMainWindow.__init__(self)
+        self.setupUi(self)
+        self.menu_exit.triggered.connect(self.close)
 
-
-from openpyxl import Workbook
-from openpyxl import load_workbook
-
-wb = load_workbook('test.xlsx')
-print(wb.sheetnames)
-wb.active = 0
-ws = wb.active
-print(ws['B4'].value)
-ws['B4'].value = "Шанхай"
-print(ws['B4'].value)
-wb.save('test.xlsx')
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    ex = App()
+    ex.show()
+    app.exec_()
